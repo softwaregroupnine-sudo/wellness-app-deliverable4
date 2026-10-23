@@ -1,0 +1,48 @@
+DELIVERABLE 4: WHERE TO FIND EACH REQUIREMENT
+
+
+1. SCREENS
+   Built:  All main screens, working and styled consistently.
+   Where:  frontend/screens/
+
+2. AUTHENTICATION
+   Built:  Register, login, logout, saved login on the phone, and
+           password reset by email link.
+   Where:  frontend/screens/LoginScreen.js
+           frontend/screens/RegisterScreen.js
+           frontend/utils/session.js
+           backend/app.py  (/register, /login, /forgot-password)
+
+3. BACKEND INTEGRATION
+   Built:  Flask REST API with a SQLite database. Every screen reads
+           and writes data through the API.
+   Where:  backend/app.py
+           database/db.py
+           frontend/services/api.js
+
+4. CORE FUNCTIONALITY (TWO COMPLETE CRUD MODULES)
+
+   Module 1: Written Assessment
+   Built:  Create, read, edit (the AI re-runs) and delete.
+   Where:  frontend/screens/WrittenAssessmentScreen.js
+           backend/app.py  (/assessments routes)
+
+   Module 2: Gratitude Journal
+   Built:  Create, read, edit and delete entries by date.
+   Where:  frontend/screens/GratitudeJournalScreen.js
+           backend/app.py  (/journal-entries routes)
+
+5. NAVIGATION AND ROUTING
+   Built:  Stack navigation with a bottom tab bar.
+   Where:  frontend/App.js
+
+6. UI FEEDBACK
+   Built:  Loading indicators, validation messages, success and error
+           alerts, and confirmation before deleting.
+   Where:  Across frontend/screens/
+
+7. CODE QUALITY
+   Built:  Separate screens, services, utils, backend and database
+           folders. Commented sections. 
+   Where:  Whole repository
+
