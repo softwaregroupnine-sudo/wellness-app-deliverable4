@@ -35,7 +35,7 @@ npm install
 
 Open frontend/services/api.js and set API_BASE_URL to the address of the running backend:
 
-the same-Wi-Fi address of the computer, for example http://192.168.1.20:5000, or
+the same-Wi-Fi address of the computer, for example http://192.xxx.1.xx:5000, or
 a tunnel such as ngrok: run ngrok http 5000 and paste the https address.
 
 if you use your address from your pc then you have to make sure that whatever devices you are cnnected to your app must have the same network connected on your device and mobile device.
