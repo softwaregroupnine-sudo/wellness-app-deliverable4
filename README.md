@@ -1,11 +1,17 @@
 Features and what they do
 Authentication:	Register, log in, log out, saved login on the phone, and "Forgot password" by email link
+
 Mood check-in:	Mood, feelings, note and optional stress, sleep and main-concern questions (one check-in per day)
+
 Written Assessment: (CRUD module 1)	Describe feelings in your own words, get an emotion label and guidance. Create, read, edit (AI re-runs) and delete
+
 Gratitude Journal: (CRUD module 2)	Create, read, edit and delete journal entries by date
 AI Analysis	Patterns: mood trend and personalised suggestions based on check-ins and written assessments
+
 Guidance and Dashboard:	AI-recommended activities, daily quote and streak
+
 Activities:	Breathing Exercise, Focus Timer, Sleep Better, Move Your Body, Gratitude Journal, AI Chat
+
 Settings:	Profile, notifications, trusted contact, campus and emergency contacts, study toolkit
 
 Tech stack
