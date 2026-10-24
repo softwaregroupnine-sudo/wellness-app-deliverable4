@@ -1,4 +1,5 @@
 Features and what they do
+
 Authentication:	Register, log in, log out, saved login on the phone, and "Forgot password" by email link
 
 Mood check-in:	Mood, feelings, note and optional stress, sleep and main-concern questions (one check-in per day)
